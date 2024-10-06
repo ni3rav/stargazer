@@ -1,0 +1,8 @@
+name: stargazer
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: shravanasati/stargazer
+  name: stargazer

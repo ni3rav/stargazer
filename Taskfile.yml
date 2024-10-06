@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: '3'
+
+
+tasks:
+  dockerfile:
+    cmds:
+      - docker build -t shravanasati/stargazer .
+    silent: false
